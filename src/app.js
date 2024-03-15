@@ -1,6 +1,7 @@
 import express from "express"
 import cors from "cors"
-import CookieParse from "cookies-parser"
+import cookieParser from "cookie-parser"
+
 
 
 
@@ -20,7 +21,7 @@ app.use(cookieParser(""))
 //routes import
 
 import userRouter from './routes/user.routes.js'
-import cookieParser from "cookie-parser"
+//import cookieParser from "cookie-parser"
 
 //routes declaration
 
